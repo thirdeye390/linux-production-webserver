@@ -1,0 +1,15 @@
+server {
+    listen 80;
+    server_name localhost;
+
+    root /opt/linux-prod-server/web;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    access_log /var/log/nginx/linux-prod-server.access.log;
+    error_log /var/log/nginx/linux-prod-server.error.log;
+}
+
