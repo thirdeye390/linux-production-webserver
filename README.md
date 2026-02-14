@@ -1,7 +1,7 @@
 ## Project Screenshots
 
 ### Website Running on Localhost
-![Website](screenshots/website-running.png)
+![Website](screenshots/website-screenshot.png)
 
 ### Nginx Configuration Test
 ![Nginx Test](screenshots/nginx-config-test.png)
